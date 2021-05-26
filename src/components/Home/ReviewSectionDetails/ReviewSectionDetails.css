@@ -1,0 +1,28 @@
+
+
+
+.review-img{
+    border-radius: 50%;
+    width: 120px;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+
+.review-p{
+  font-size: 16px;
+  color: #2c3e50;
+ 
+
+}
+
+.review-h5{
+color: #2c3e50;
+font-size: 18px;
+font-weight: 600;
+}
+
+.review-h6{
+  color: #2c3e50;
+  font-size: 16px;
+}

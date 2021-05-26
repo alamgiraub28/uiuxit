@@ -1,0 +1,32 @@
+
+.about-content-main{
+margin-top: -50px;
+z-index: 999;
+}
+
+.about-content{
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 25px 35px;
+
+}
+
+.about-content h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #1f1f25;
+    margin-bottom: 20px;
+}
+
+
+.iconCustom{
+    background: #ffecef;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+
+}
+

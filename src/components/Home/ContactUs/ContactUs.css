@@ -1,0 +1,12 @@
+.contactUsImage{
+    height: 600px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 25px;
+}   
+
+.send-btn{
+    background:rgb(70, 70, 70);
+    border-radius: 10px;
+}

@@ -1,0 +1,39 @@
+
+
+.footer{
+background-color: #1d1e24;
+padding: 40px 0;
+}
+
+
+
+
+.btn-social-footer{
+border-radius: 50% !important;
+height: 60px;
+width: 60px;
+border: 2px solid #dfe0e2;
+color: #dfe0e2;
+display: block;
+margin: 0 5px;
+}
+
+
+.icon-footer{
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.btn-social-footer:hover{
+   background: #ef3365;
+   color: #dfe0e2;
+   border: none;
+    }
+
+
+    .footer-note{
+        padding: 0;
+        margin: 0;
+    }

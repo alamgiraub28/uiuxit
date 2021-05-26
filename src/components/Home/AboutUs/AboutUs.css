@@ -1,0 +1,28 @@
+.aboutUs-content{
+    text-align: start;
+}
+
+
+.aboutUs-content h1{
+    text-align: start;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.aboutUs-content p{
+    text-align: start;
+    
+}
+.about-secondPart{
+    margin: 100px 0;
+}
+
+
+.faCheck{
+    color: #eaa327;
+}
+
+
+.title-feature{
+    font-size: 30px !important;
+}

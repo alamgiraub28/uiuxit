@@ -1,0 +1,38 @@
+.service-card-bg{
+    background-color: #e9f1f7;
+    padding: 60px 56px;
+    border-radius: 10px;
+}
+
+.service-card-bg:hover{
+background: linear-gradient( to right, #ef3365, #af2852);
+color: #ffffff !important;
+}
+
+
+.service-card-bg:hover p{
+    color: #ffffff !important;
+    }
+
+.service-card-bg h1{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+.serviceIcon{
+    height: 55px;
+}
+
+.serviceIconPNG{
+    display: none;
+}
+
+.service-card-bg:hover .serviceIconPNG{
+    display: block;
+    margin: 0 auto;
+}
+
+.service-card-bg:hover .serviceIconSVG{
+    display: none;
+}
