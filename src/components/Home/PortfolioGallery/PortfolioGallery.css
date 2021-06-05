@@ -1,0 +1,57 @@
+.gallery-style:hover{
+    background: linear-gradient(to right, #163341, #4b334b);
+    opacity: 25%;
+}
+
+.portfolio-section{
+    padding: 120px 0;
+
+}
+
+.portfolio-content h1{
+    font-size: 60px !important;
+   text-align: start !important;
+    font-weight: 700;
+}
+
+
+.menu{
+    margin-left: 0 !important;
+}
+
+.btn-portfolio{
+    border: none;
+    margin: 0 15px;
+    padding: 0;
+    background: none;
+}
+
+
+.project-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.project-title:focus {
+    color: #ef3365;
+    border-bottom: 3px solid #ef3365;
+  }
+
+
+
+  .masonry-grid {
+	display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+	width: auto;
+}
+
+.masonry-grid-column{
+    padding-left: 15px;;
+    background-clip: padding-box;
+}
+
+.masonry-grid-column > div{
+    margin: 15px auto;
+}
+

@@ -87,10 +87,10 @@ const skilledTeamData = [
 
 const SkilledTeam = () => {
     return (
-        <div style={{ backgroundColor: "#f6f7fc", padding: "120px"}} id="team">
-            <div className=""> 
-            <h1 style={{ fontSize: "60px", fontWeight: "700" }}>Skilled Team</h1>
-             <p style={{ fontSize: "16px", width: "750px", margin:"auto",  paddingBottom: "30px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida.</p>
+        <div style={{ backgroundColor: "#f6f7fc", padding: "120px 0"}} id="team">
+            <div className="col-md-6 m-auto col-sm-12">
+                <h1 style={{ fontSize: "60px", fontWeight: "700" }}>Skilled Team</h1>
+                <p style={{ fontSize: "16px",  paddingBottom: "30px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida.</p>
             </div>
             <div className="container">
             <div className="row">

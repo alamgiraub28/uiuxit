@@ -1,47 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Container, Nav, Navbar} from 'react-bootstrap';
 import logo from '../../../img/logo-uiuxiwhite.png';
 import './TopMenu.css';
 
+
 const TopMenu = () => {
-    return (
-        <section className="nav-custom fixed-top">
-            <div className="container">
-            <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid text-start">
-    <a class="navbar-brand" href="#"><img className="w-25" src={logo} alt=""/></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link-custom active" aria-current="page" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link-custom" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link-custom" href="#service">Service</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link-custom" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link-custom" href="#team">Team</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link-custom" href="#testimonial">Testimonial</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link-custom" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</div>
-</section>
-    );
+
+const [navbar, setNavbar] = useState(false);
+const changeBackground = () => {
+  if(window.scrollY >= 80) {
+    setNavbar(true)
+  } else{
+    setNavbar(false);
+  }
+};
+
+window.addEventListener("scroll", changeBackground);
+
+return (
+
+<Navbar className={navbar ? "navbar-main active" : "navbar-main"} expand="lg">
+  <Container>
+    <Navbar.Brand className="text-start" href="#home"><img className="w-25" src={logo} alt="" /></Navbar.Brand>
+
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+
+      <Nav className="ms-auto">
+        <Nav.Link className="nav-link-custom" href="#home">Home</Nav.Link>
+        <Nav.Link className="nav-link-custom" href="#about">About</Nav.Link>
+        <Nav.Link className="nav-link-custom" href="#services">Services</Nav.Link>
+        <Nav.Link className="nav-link-custom" href="#portfolio">Portfolio</Nav.Link>
+        <Nav.Link className="nav-link-custom" href="#team">Team</Nav.Link>
+        <Nav.Link className="nav-link-custom" href="#testimonial">Testimonial</Nav.Link>
+        <Nav.Link className="nav-link-custom" href="#contact">Contact</Nav.Link>
+      </Nav>
+
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
+  );
 };
 
 export default TopMenu;

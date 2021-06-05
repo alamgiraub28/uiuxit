@@ -9,7 +9,7 @@ import './ReviewSectionDetails.css';
 
 
 const ReviewSectionDetails = ({review}) => {
-  
+   
     return (
         <div className="container">
           <div className="content">

@@ -1,19 +1,14 @@
-import React from 'react';
-import { useState } from 'react/cjs/react.development';
-import './Portfolio.css';
-import PortfolioCard from './PortfolioCard/PortfolioCard';
-import  { ResponsiveMasonry } from "react-responsive-masonry"
+import React, { useState } from 'react';
+import PortfolioCard from '../Portfolio/PortfolioCard/PortfolioCard';
+import './PortfolioGallery.css';
 
-
-
-const imageData = [
+const portfolioDatas = [
     {
         id: "1",
         name: "all",
         category: "all",
         imageURL: "image/projectNew.jpg",
         liveLink: "www.google.com"
-        
     },
 
     {
@@ -72,37 +67,29 @@ const imageData = [
         liveLink: "www.google.com"
     }
 
-
-
 ]
-const Portfolio = () => {
 
-    const [images, setImages] = useState(imageData);
-
-
+const PortfolioGallery = () => {
+    const [images, setImages] = useState(portfolioDatas)
 
     const handleItem = (categoryItem) => {
 
-        const updatedImage = imageData.filter((currentItem) => {
+        const updatedImage = portfolioDatas.filter((currentItem) => {
             return currentItem.category === categoryItem;
         });
 
         setImages(updatedImage);
     }
 
-
-
-
     return (
         <div className="container portfolio-section" id="portfolio">
-           
-            <div className="col-md-6 m-auto col-sm-12 bg-info">
-                <h1>Portsdffolio</h1>
-                <p className="text-start text-secondary">AlamgirLorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate possimus consectetur reprehenderit, quia mollitia cum?</p>
+            <div className="col-md-6 col-sm-12 portfolio-content">
+                <h1 className="text-start">Portfolio</h1>
+                <p className="text-start text-secondary ms-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate possimus consectetur reprehenderit, quia mollitia cum?</p>
             </div>
 
-            <div className="text-start py-5 ms-0 menu bg-danger">
-                <button className="btn-portfolio project-title menu" onClick={() => setImages(imageData)}>All</button>
+            <div className="text-center py-5 ms-0 menu">
+                <button className="btn-portfolio project-title menu" onClick={() => setImages(portfolioDatas)}>All</button>
                 <button className="btn-portfolio project-title" onClick={() => handleItem('webDesign')}>Web Design </button>
                 <button className="btn-portfolio project-title" onClick={() => handleItem('webDesign')}>App Design</button>
                 <button className="btn-portfolio project-title" onClick={() => handleItem('wordpress')}>WordPress</button>
@@ -110,21 +97,13 @@ const Portfolio = () => {
                 <button className="btn-portfolio project-title" onClick={() => handleItem('html')}>HTML</button>
                 <button className="btn-portfolio project-title" onClick={() => handleItem('html')}>UI/UX</button>
             </div>
-
             <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
-                        <ResponsiveMasonry
-                        columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
-                        >
-                            
-                                {
-                                    images.map(element => <PortfolioCard element={element}></PortfolioCard>)
-                                }
-                            
-                        </ResponsiveMasonry>
+                <div className="col-md-12">
+                    <div className="row">
+                        {
+                            images.map(element => <PortfolioCard element={element}></PortfolioCard>)
+                        }
                     </div>
-
                 </div>
             </div>
 
@@ -132,4 +111,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default PortfolioGallery;

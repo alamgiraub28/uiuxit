@@ -26,3 +26,9 @@
 .title-feature{
     font-size: 30px !important;
 }
+
+
+.about-content-main{
+    margin-top: -50px !important;
+    z-index: 11111111;
+}

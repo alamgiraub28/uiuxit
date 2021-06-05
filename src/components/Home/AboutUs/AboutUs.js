@@ -31,18 +31,19 @@ const aboutInfoData = [
 
 const AboutUs = () => {
     return (
-        <div className="container" id="about">
-            <div className="row">
+        <div className="container about-content-main" id="about">
+            <div className="row ">
                 {
                     aboutInfoData.map(about => <AboutCard about={about}></AboutCard>)
                 }
             </div>
+
             <div className="container about-secondPart">
                 <div className="row justify-content-center align-items-center">
-                    <div className="col-md-6">
-                        <img src={aboutPic} alt="" />
+                    <div className="col-md-6 col-sm-12">
+                        <img className="img-fluid" src={aboutPic} alt="" />
                     </div>
-                    <div className="col-md-6 aboutUs-content">
+                    <div className="col-md-6 col-sm-12 aboutUs-content">
                         <div class="row">
                             <div class="col-12">
                                 <h1>About</h1>

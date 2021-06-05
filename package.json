@@ -1,5 +1,6 @@
 {
   "name": "uiuxit",
+  "homepage": "https://uiuxit.com/newreact/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,8 +13,10 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^5.0.1",
     "masonry-layout": "^4.2.2",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
     "react-elastic-carousel": "^0.11.5",
     "react-infinite-scroll-component": "^6.1.0",

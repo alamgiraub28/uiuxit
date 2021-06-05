@@ -1,11 +1,14 @@
 import React from 'react';
+import Footer from '../Share/Footer/Footer';
 import TopMenu from '../Share/TopMenu/TopMenu';
 import AboutUs from './AboutUs/AboutUs';
 import BrandList from './BrandList/BrandList';
 import ContactUs from './ContactUs/ContactUs';
-import Footer from './Footer/Footer';
+
 import Header from './Header/Header';
-import Portfolio from './Portfolio/Portfolio';
+import PortfolioGallery from './PortfolioGallery/PortfolioGallery';
+
+
 import ReviewSection from './ReviewSection/ReviewSection';
 import Services from './Services/Services';
 import SkilledTeam from './SkilledTeam/SkilledTeam';
@@ -17,7 +20,7 @@ const Home = () => {
     <Header></Header>
     <AboutUs></AboutUs>
     <Services></Services>
-    <Portfolio></Portfolio>
+    <PortfolioGallery></PortfolioGallery>
     <SkilledTeam></SkilledTeam>
     <ReviewSection></ReviewSection>
     <ContactUs></ContactUs>

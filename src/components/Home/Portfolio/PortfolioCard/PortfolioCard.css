@@ -1,11 +1,10 @@
 .galleryImg{
     height: 400px;
     overflow: hidden;
-    margin-bottom: 25px;
     border-radius: 10px;
     position: relative;
     border: 1px solid red;
-    margin: 10px 10px ;
+    margin: 10px 0 ;
 }
 
 
@@ -19,18 +18,25 @@
     right: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     transition: .5s ease-in-out;
-    background:rgba(0, 0, 0, 0.7)
+    background:rgba(0, 0, 0, 0.7);
 }
 
 
 .text{
-    color: #ffffff;
+    color: #c52020;
     text-decoration: none;
     font-size: 16px;
     transition: .5s;
+    display: none !important;
 }
+
+
+.galleryImg:hover .text{
+    display: block !important;
+}
+
 
 
 .text:hover{

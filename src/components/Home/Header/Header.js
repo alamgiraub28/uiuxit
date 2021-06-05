@@ -31,15 +31,15 @@ const Header = () => {
 </div> */}
 
 <div className="container ">
-    <div className="row hero-content">
-        <div className="col-md-8 col-sm-12 text-start">
+    <div className="row hero-content h-auto">
+        <div className="col-md-6 col-sm-12 text-start g-5">
             <h1>design. development. <br/> branding</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-            <button className="btn-custom-outline">VIEW MORE</button>
+            <button className="btn-custom-outline mb-3">VIEW MORE</button>
             <button className="btn-custom-outline">CONTACT US</button>
         </div>
-        <div className="col-md-4 col-sm-12">
-        <img className="imageSize" src={heroPic} alt=""/>
+        <div className="col-md-6 col-sm-12">
+        <img className="img-fluid mt-5" src={heroPic} alt=""/>
         </div>
     </div>
     

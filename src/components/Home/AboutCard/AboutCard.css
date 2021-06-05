@@ -1,8 +1,8 @@
 
-.about-content-main{
-margin-top: -50px;
-z-index: 999;
+.card-zindex{
+    z-index: 3;
 }
+
 
 .about-content{
     background: #ffffff;

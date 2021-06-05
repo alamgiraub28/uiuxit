@@ -1,8 +1,8 @@
 import React from 'react';
-
 import ReviewSectionDetails from '../ReviewSectionDetails/ReviewSectionDetails';
 import './ReviewSection.css';
 import Slider from "react-slick";
+
 const reviewsData = [
     {
         id: "1",
@@ -86,9 +86,9 @@ const ReviewSection = () => {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 1
             }
           },
           {
@@ -101,19 +101,23 @@ const ReviewSection = () => {
         ]
       };
     return (
-        <div style={{ padding: "120px"}} id="testimonial" >
-            <div> <h1 style={{ fontSize: "60px", fontWeight: "700" }}>Client Says</h1>
-                <p style={{ fontSize: "16px", width: "750px", margin:"auto"}} className="text-secondary pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida.</p>
+        <div style={{ padding: "120px 0"}} id="testimonial" >
+          <div className="container">
+
+          <div className="col-md-6 col-sm-12 m-auto">
+              <h1 style={{ fontSize: "60px", fontWeight: "700" }}>Client Says</h1>
+              <p style={{ fontSize: "16px"}} className="text-secondary pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida.</p>
             </div>
+
+          </div>
+            
             <div className="container">
-            <Slider {...settings}>
+              <Slider {...settings}>
 
-                        {
-                            reviewsData.map(review => <ReviewSectionDetails review={review} key={review.id}></ReviewSectionDetails>)
-                        }
-        </Slider>
-
- 
+                          {
+                              reviewsData.map(review => <ReviewSectionDetails review={review} key={review.id}></ReviewSectionDetails>)
+                          }
+              </Slider>
             </div>
         </div>
     );

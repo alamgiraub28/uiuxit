@@ -53,11 +53,13 @@ const serviceData = [
 
 const Services = () => {
     return (
-        <div style={{ backgroundColor: "#f6f7fc", paddingTop:"120px", paddingBottom:"120px"}} id="service">
-            <div>
-            <div> <h1 style={{ fontSize: "60px", fontWeight: "700" }}>Services</h1>
-                <p style={{ fontSize: "16px", width: "750px", margin:"auto"}} className="text-secondary pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida.</p>
-            </div>
+        <div style={{ backgroundColor: "#f6f7fc", padding:"120px 0"}} id="services">
+            <div className="container">
+                <div className="col-md-6 m-auto col-sm-12">
+                <h1 style={{ fontSize: "60px", fontWeight: "700" }}>Services</h1>
+                <p style={{ fontSize: "16px",  margin:"auto"}} className="text-secondary pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida.</p>
+                </div>
+               
             </div>
             <div className="container">
                 <div className="row">
