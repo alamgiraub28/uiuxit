@@ -18,7 +18,7 @@ const aboutInfoData = [
 
     {
         icon: IconSuper,
-        title: "Super Idear",
+        title: "Super Idea",
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, voluptate."
     },
 

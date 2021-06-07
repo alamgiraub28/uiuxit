@@ -32,7 +32,7 @@ const Header = () => {
 
 <div className="container ">
     <div className="row hero-content h-auto">
-        <div className="col-md-6 col-sm-12 text-start g-5">
+        <div className="col-md-6 col-sm-12 text-start">
             <h1>design. development. <br/> branding</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
             <button className="btn-custom-outline mb-3">VIEW MORE</button>

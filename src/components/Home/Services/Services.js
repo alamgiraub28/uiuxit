@@ -53,7 +53,7 @@ const serviceData = [
 
 const Services = () => {
     return (
-        <div style={{ backgroundColor: "#f6f7fc", padding:"120px 0"}} id="services">
+        <div style={{ backgroundColor: "#f6f7fc", padding:"120px 0", textAlign:"center"}} id="services">
             <div className="container">
                 <div className="col-md-6 m-auto col-sm-12">
                 <h1 style={{ fontSize: "60px", fontWeight: "700" }}>Services</h1>

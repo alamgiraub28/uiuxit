@@ -2,7 +2,7 @@
 
 .footer{
 background-color: #1d1e24;
-padding: 40px 0;
+padding: 30px 0;
 }
 
 
@@ -14,8 +14,8 @@ height: 60px;
 width: 60px;
 border: 2px solid #dfe0e2;
 color: #dfe0e2;
-display: block;
 margin: 0 5px;
+display: inline-block;
 }
 
 
@@ -36,4 +36,5 @@ margin: 0 5px;
     .footer-note{
         padding: 0;
         margin: 0;
+        text-align: right !important;
     }
