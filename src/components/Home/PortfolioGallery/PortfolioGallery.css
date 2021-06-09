@@ -8,12 +8,15 @@
 
 }
 
-.portfolio-content h1{
+.portfolio-ttile{
     font-size: 60px !important;
    text-align: start !important;
     font-weight: 700;
+    margin-bottom: 30px !important;
 }
-
+.portfolio-text{
+    margin-bottom: 50px !important;
+}
 
 .menu{
     margin-left: 0 !important;

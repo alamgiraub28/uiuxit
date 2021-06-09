@@ -12,7 +12,7 @@ const ReviewSectionDetails = ({review}) => {
    
     return (
         <div className="container">
-          <div className="content">
+          <div className="text-center">
           <img className="review-img" src={review.imageURL} alt="" />
           <p className="review-p">{review.description}</p>
           <h5 className="review-h5">{review.name}</h5>

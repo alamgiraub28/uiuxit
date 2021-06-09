@@ -41,7 +41,7 @@ transition: .5s ease-in-out;
 
 
 .icon:hover{
-    color: aqua !important;
+    color: #ef3365 !important;
     transition: all .9s ease-in-out;
     transform: rotate(90deg);
     font-size: 25px !important;

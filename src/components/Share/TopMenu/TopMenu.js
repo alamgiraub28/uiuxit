@@ -21,12 +21,12 @@ return (
 
 <Navbar className={navbar ? "navbar-main active" : "navbar-main"} expand="lg">
   <Container>
-    <Navbar.Brand className="text-start" href="#home"><img className="w-25" src={logo} alt="" /></Navbar.Brand>
+    <Navbar.Brand className="text-start" href="#home"><img className="img-fluid" src={logo} alt="" /></Navbar.Brand>
 
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Toggle aria-controls="basic-navbar-nav" className={"text-center"}/>
     <Navbar.Collapse id="basic-navbar-nav">
 
-      <Nav className="ms-auto">
+      <Nav className="ms-auto text-center">
         <Nav.Link className="nav-link-custom" href="#home">Home</Nav.Link>
         <Nav.Link className="nav-link-custom" href="#about">About</Nav.Link>
         <Nav.Link className="nav-link-custom" href="#services">Services</Nav.Link>

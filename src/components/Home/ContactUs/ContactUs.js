@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactUs.css';
-import contactUsImage from '../../../img/skillied-team-1.jpg';
+import contactUsImage from '../../../img/contactus-img.png';
 
 const ContactUs = () => {
 
@@ -19,7 +19,7 @@ const ContactUs = () => {
                             <input type="number" className="form-control" placeholder="Phone" /><br />
                             <input type="email" className="form-control" placeholder="Email Address" /><br />
                             <textarea name="text" id="" className="form-control" cols="30" rows="10"></textarea>
-                            <button className="btn btn-custom-outline send-btn mt-2">Send Message</button>
+                            <button className="btn btn-custom-outline send-btn mt-4">Send Message</button>
                         </form>
                     </div>
                     <div className="col-md-6 col-sm-12">

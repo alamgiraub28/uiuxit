@@ -84,11 +84,11 @@ const PortfolioGallery = () => {
     return (
         <div className="container portfolio-section" id="portfolio">
             <div className="col-md-6 col-sm-12 portfolio-content">
-                <h1 className="text-start">Portfolio</h1>
-                <p className="text-start text-secondary ms-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate possimus consectetur reprehenderit, quia mollitia cum?</p>
+                <h1 className="portfolio-ttile">Portfolio</h1>
+                <p className="text-start text-secondary portfolio-text ms-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate possimus consectetur reprehenderit, quia mollitia cum?</p>
             </div>
 
-            <div className="text-center py-5 ms-0 menu">
+            <div className="text-center ms-0 menu">
                 <button className="btn-portfolio project-title menu" onClick={() => setImages(portfolioDatas)}>All</button>
                 <button className="btn-portfolio project-title" onClick={() => handleItem('webDesign')}>Web Design </button>
                 <button className="btn-portfolio project-title" onClick={() => handleItem('webDesign')}>App Design</button>

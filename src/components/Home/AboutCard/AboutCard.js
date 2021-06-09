@@ -9,7 +9,7 @@ const AboutCard = ({about}) => {
                 <img className="img-fluid" src={about.icon} alt=""/>
                 </div>
             <h1 className="text-center">{about.title}</h1>
-            <p className="text-secondary">{about.description}</p>
+            <p className="text-secondary text-center">{about.description}</p>
             </div>
         </div>
     );

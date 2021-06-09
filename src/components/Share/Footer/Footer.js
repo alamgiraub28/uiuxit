@@ -12,7 +12,7 @@ const Footer = () => {
                     <div class="col-md-2 col-sm-12 gx-2 text-center p-0">
                         <img className="img-fluid" src={footerLogo} alt="" />
                     </div>
-                    <div class="col-md-7 col-sm-12 gx-2 gy-4 text-center p-0 bg-danger">
+                    <div class="col-md-7 col-sm-12 gx-2 gy-4 text-center p-0">
                     <a
                                 class="btn-social-footer"
                                 href="#!"
@@ -44,7 +44,7 @@ const Footer = () => {
                             ><FontAwesomeIcon className="icon-footer" icon={faBehance} />
                             </a>
                     </div>
-                    <div class="col-md-3 col-sm-12 gx-2 gy-4 bg-info text-center p-0">
+                    <div class="col-md-3 col-sm-12 gx-2 gy-4 text-center p-0">
                         <small className="text-light">© 2021. All rights reserved, uiuxit.com</small>
                     </div>
                 </div>

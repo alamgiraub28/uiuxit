@@ -101,12 +101,12 @@ const ReviewSection = () => {
         ]
       };
     return (
-        <div style={{ padding: "120px 0"}} id="testimonial" >
+        <div style={{ paddingTop: "120px"}} id="testimonial" >
           <div className="container">
 
           <div className="col-md-6 col-sm-12 m-auto">
-              <h1 style={{ fontSize: "60px", fontWeight: "700", textAlign:"center" }}>Client Says</h1>
-              <p style={{ fontSize: "16px"}} className="text-secondary pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida.</p>
+              <h1 style={{ fontSize: "60px", fontWeight: "700", textAlign:"center", marginBottom:"30px" }}>Client Says</h1>
+              <p style={{ fontSize: "16px", marginBottom:"50px"}} className="text-secondary text-center pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida.</p>
             </div>
 
           </div>

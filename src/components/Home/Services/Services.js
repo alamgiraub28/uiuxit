@@ -7,7 +7,7 @@ const serviceData = [
     {
         icon: serviceIcon,
         pngIcon: pngIconT,
-        title: "Website Development",
+        title: "Web Development",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
     },
 
@@ -30,7 +30,7 @@ const serviceData = [
     {
         icon: serviceIcon,
         pngIcon: pngIconT,
-        title: "Word-press Themes",
+        title: "WordPress Themes",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
     },
 
@@ -56,8 +56,8 @@ const Services = () => {
         <div style={{ backgroundColor: "#f6f7fc", padding:"120px 0", textAlign:"center"}} id="services">
             <div className="container">
                 <div className="col-md-6 m-auto col-sm-12">
-                <h1 style={{ fontSize: "60px", fontWeight: "700" }}>Services</h1>
-                <p style={{ fontSize: "16px",  margin:"auto"}} className="text-secondary pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida.</p>
+                <h1 style={{ fontSize: "60px", fontWeight: "700", marginBottom:"30px" }}>Services</h1>
+                <p style={{ fontSize: "16px",  margin:"auto", marginBottom:"50px"}} className="text-secondary pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida.</p>
                 </div>
                
             </div>

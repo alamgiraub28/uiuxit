@@ -1,8 +1,12 @@
 .bg-hero{
     background: linear-gradient(to right, #163341, #4b334b);
-    height: 1080px;
     position: relative;
     z-index: 1;
+}
+
+.hero-height{
+    padding-top: 25px !important;
+    padding-bottom: 150px !important;
 }
 
 .custom-shape-1{
@@ -23,8 +27,8 @@
     width: 500px;
     border-radius: 100px;
     transform: rotate(45deg);
-    margin-left: -250px;
-    margin-top: 550px;
+    margin-left: -280px;
+    margin-top: 250px;
     opacity: 50%;
 }
 
@@ -36,7 +40,7 @@
     border-radius: 100px;
     transform: rotate(45deg);
     margin-left: 500px;
-    margin-top: -350px;
+    margin-top: -230px;
     opacity: 35%;
 }
 
@@ -47,24 +51,24 @@
 }
 
 
-.hero-content{
-    height: 1080px;
+/* .hero-content{
     align-items: center;
-}
+    background: red;
+} */
 
 
-.imageDiv-main{
+/* .imageDiv-main{
     position: absolute;
     right: 10%;
-}
+} */
 
 
-.imgRowHeight{
+/* .imgRowHeight{
 height: 1080px;
-}
+} */
 
-.hero-content h1{
-    font-size: 45px;
+.hero-title{
+    font-size: calc(2rem + 1.5vw);
     color: #ef3365;
     text-transform: uppercase;
     font-weight: 700;
@@ -79,9 +83,9 @@ height: 1080px;
 
 
 
-    .imageSize{
+    /* .imageSize{
         max-width: 700px;
        
-    }
+    } */
 
 

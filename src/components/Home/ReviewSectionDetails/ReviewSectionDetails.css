@@ -3,9 +3,12 @@
 
 .review-img{
     border-radius: 50%;
-    width: 120px;
-    margin: 0 auto;
-    padding: 10px 0;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 15px auto;
+
+  
 
 }
 

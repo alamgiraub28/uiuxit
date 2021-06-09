@@ -17,19 +17,17 @@ body {
 .btn-custom-outline{
   background: none;
   color: #ffffff;
-  padding: 15px 40px;
+  padding: 20px 40px;
   border-radius: 5px;
   border: 2px solid #ffffff;
-  margin-right: 25px;
   transition: .5s ease-in-out;
+
+  font-size: 16px;
 }
 
 
 .btn-custom-outline:hover{
   background-color: #ef3365;
-  color: #ffffff;
-  padding: 15px 40px;
-  border-radius: 5px;
   border: 2px solid #ef3365;
   cursor: pointer;
 }

@@ -14,7 +14,7 @@
     
 }
 .about-secondPart{
-    margin: 100px 0;
+    padding: 120px 0;
 }
 
 
@@ -29,6 +29,6 @@
 
 
 .about-content-main{
-    margin-top: -50px !important;
+    margin-top: -70px !important;
     z-index: 11111111;
 }

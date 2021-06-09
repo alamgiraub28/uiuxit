@@ -92,7 +92,7 @@ const BrandList = () => {
           };
 
     return (
-        <div style={{padding: "120px 0"}} id="testimonial" >
+        <div style={{paddingBottom: "120px"}} id="testimonial" >
                      
             <div className="container">
                 <div className="row">
